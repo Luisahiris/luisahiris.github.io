@@ -1,40 +1,34 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+<!DOCTYPE html>
+<html lang="en">
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+<head>
+  <meta charset="utf-8" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon/favicon-16x16.png">
 
-> Free React Admin Dashboard made with Material-UI components and React.
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-![preview](public/static/preview.png)
+  <!-- Using Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-| [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
-| ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **7** Demo pages                                      | **42+** demo pages                                                |
-| -                                                     | ✓ Multi-language                                                  |
-| -                                                     | ✓ Dark/Light Mode 🌓                                              |
-| -                                                     | ✓ [More components](https://minimals.cc/components)               |
-| -                                                     | ✓ TypeScript version                                              |
-| -                                                     | ✓ Design files (Figma & Sketch)                                   |
+  <!-- Using Local Font -->
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts/index.css" />
 
-## Page demo
+  <title>Minimal UI Kit</title>
+  <meta name="description"
+    content="The starting point for your next project with Minimal UI Kit, built on the newest version of Material-UI ©, ready to be customized to your style" />
+  <meta name="keywords" content="react,material,kit,application,dashboard,admin,template" />
+  <meta name="author" content="Minimal UI Kit" />
+</head>
 
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Users](https://minimal-kit-react.vercel.app/dashboard/user)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Blog](https://minimal-kit-react.vercel.app/dashboard/blog)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
 
-## Getting started
-
-- Recommended `node js 14+` and `npm 6+`
-- Install dependencies: `npm install` or `yarn install`
-- Start the server: `npm run start` or `yarn start`
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
-
-## Contact us
-
-Email Us: support@minimals.cc
+</html>
